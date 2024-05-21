@@ -68,3 +68,17 @@ class userProfile extends React.Component {
         );
     }
 }
+
+function Appa() {
+    return (
+        <div className="App">
+            <header className="App-header">
+                <h1>HEJ</h1>
+                <p>HEJ</p>
+            </header>
+        </div>
+    );
+}
+
+export default Appa;
+export {Counter, timer, userProfile};
